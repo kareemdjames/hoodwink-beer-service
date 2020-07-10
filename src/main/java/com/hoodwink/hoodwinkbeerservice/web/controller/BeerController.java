@@ -23,7 +23,6 @@ public class BeerController {
 
         //todo impl
         return new ResponseEntity(HttpStatus.CREATED);
-
     }
 
     @PutMapping("/{beerId}")

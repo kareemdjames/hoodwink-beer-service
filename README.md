@@ -1,3 +1,3 @@
 #Hoodwink Beer Service
 
-Beer micro service
+Beer Microservice

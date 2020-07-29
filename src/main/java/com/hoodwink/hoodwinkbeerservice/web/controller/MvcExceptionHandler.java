@@ -18,7 +18,7 @@ public class MvcExceptionHandler {
 
         e.getConstraintViolations().forEach(error -> errorsList.add(error.toString()));
 
-        return new ResponseEntity<>((errorsList, HttpStatus.BAD_REQUEST))
+        return new ResponseEntity<>(errorsList, HttpStatus.BAD_REQUEST);
     }
 
 }
